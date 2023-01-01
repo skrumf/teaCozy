@@ -39,7 +39,7 @@ a:hover {
 
 .hero {
     display: flex;
-    
+
     align-items: center;
     justify-content: space-around;
 
@@ -47,14 +47,17 @@ a:hover {
 
 .hero-banner {
     background-color: black;
-    display: flex;
     position: absolute;
     width: 1200px;
     height: 150px;
-    align-items: center;
-    color: seashell;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    opacity: 0.9;
+}
 
+h2,
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+    opacity: 0.9;
 }
