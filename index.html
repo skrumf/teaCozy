@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- This is a project that was made for the Codecademy Fullstack Developer course by Stephen Rumph. I created this project to demonstrate my knowledge and use of the flexbox attributes in css and proficiancy in basic html-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,8 @@
 </head>
 
 <body>
+    <!-- The navigation section including the logo. I kept this simple and set links to open onto itself -->
     <nav>
-        <!-- The navigation section including the logo -->
         <ul>
             <li><a href="#" target="_blank">Mission</a></li>
             <li><a href="#" target="_blank">Featured Tea</a></li>
@@ -20,8 +20,8 @@
         <img src="images/tea-cozy-logo.png" alt="logo">
     </nav>
 
+    <!-- Hero section with big image of muesli. This was a challenge at first as I had never put a banner over the top of an image -->
     <section class="hero">
-        <!-- Hero section with big image of muesli -->
         <img src="images/mission-background.jpeg" alt="hero">
 
         <div class="hero-banner">
@@ -30,20 +30,37 @@
         </div>
     </section>
 
+    <!-- Tea of the month section. This was the most challenging part of the build process as I wondered how I would get the images aligned into that specific configuration and also add the caption   -->
     <section class="tom-section">
-        <!-- Tea of the month section  -->
+
         <h2>Tea of the Month</h2>
         <h4>What's Steeping at The Tea Cozy?</h4>
 
         <div class="image-tiles">
-            <img src="images/spiced-rum.jpeg" alt="spiced rum">
-            <img src="images/donut.jpeg" alt="donut">
-            <img src="images/berryblitz.jpeg" alt="berry blitz">
-            <img src="images/bedford-bizarre.jpeg" alt="bedford bizarrre">
-            <img src="images/myrtle-ave.jpeg" alt="myrtle ave">
+            <figure>
+                <img src="images/spiced-rum.jpeg" alt="spiced rum">
+                <figcaption>Spiced Rum</figcaption>
+            </figure>
+            <figure>
+                <img src="images/donut.jpeg" alt="donut">
+                <figcaption>Donut</figcaption>
+            </figure>
+            <figure>
+                <img src="images/berryblitz.jpeg" alt="berry blitz">
+                <figcaption>Berry Blitz</figcaption>
+            </figure>
+            <figure>
+                <img src="images/bedford-bizarre.jpeg" alt="bedford bizarrre">
+                <figcaption>Bedford Bizarre</figcaption>
+            </figure>
+            <figure>
+                <img src="images/myrtle-ave.jpeg" alt="myrtle ave">
+                <figcaption>Myrtle Avenue</figcaption>
+            </figure>
         </div>
     </section>
 
+    <!-- The location section of the page ended up being pretty straight forward, but I could not work out how to overlay the tiles without making the position relative and using the bottom constructor to move them. -->
     <section class="location">
 
         <img src="images/locations-background.jpeg" alt="locations-background">
@@ -51,7 +68,9 @@
         <div class="location-banner-group">
             <div class="location-banner-one">
                 <ul>
-                    <li><h3>Downtown</h3></li>
+                    <li>
+                        <h3>Downtown</h3>
+                    </li>
                     <li>384 West 4th St</li>
                     <li>Suite 108</li>
                     <li>Portland, Maine</li>
@@ -59,7 +78,9 @@
             </div>
             <div class="location-banner-two">
                 <ul>
-                    <li><h3>East Bayside</h3></li>
+                    <li>
+                        <h3>East Bayside</h3>
+                    </li>
                     <li>3443 Phisherman's Avenue</li>
                     <li>(North Corner)</li>
                     <li>Portland, Maine</li>
@@ -67,7 +88,9 @@
             </div>
             <div class="location-banner-three">
                 <ul>
-                    <li><h3>Oakdale</h3></li>
+                    <li>
+                        <h3>Oakdale</h3>
+                    </li>
                     <li>515 Cresent Avenue</li>
                     <li>Second Floor</li>
                     <li>Portland, Maine</li>
@@ -75,13 +98,13 @@
             </div>
         </div>
     </section>
-
+    <!-- Contact section -->
     <section class="contact">
         <h3>The Tea Cozy</h3>
         <h5>contact@theteacozy.com</h5>
         <h5>917-555-8904</h5>
     </section>
-
+    <!-- footer section -->
     <footer>
         <h4>copyright The Tea Cozy 2017</h4>
     </footer>
